@@ -29,7 +29,7 @@ pipeline {
                 script {
                     // If you are using Windows then you should use "bat" step
                     // Since unit testing is out of the scope we skip them
-                    bat "C:\\Program Files\\apache-maven-3.6.2\\bin mvn build -DskipTests=true"
+                    bat "C:\\Program Files\\apache-maven-3.6.2\\bin\\mvn build -DskipTests=true"
                 }
             }
         }
@@ -38,7 +38,7 @@ pipeline {
                 script {
                     // If you are using Windows then you should use "bat" step
                     // Since unit testing is out of the scope we skip them
-                    bat "C:\\Program Files\\apache-maven-3.6.2\\bin mvn clean"
+                    bat "C:\\Program Files\\apache-maven-3.6.2\\bin\\mvn clean"
                 }
             }
         }
@@ -47,7 +47,7 @@ pipeline {
                 script {
                     // If you are using Windows then you should use "bat" step
                     // Since unit testing is out of the scope we skip them
-                    bat "C:\\Program Files\\apache-maven-3.6.2\\bin mvn test"
+                    bat "C:\\Program Files\\apache-maven-3.6.2\\bin\\mvn test"
                 }
             }
         }
@@ -60,7 +60,7 @@ pipeline {
                 script {
                     // If you are using Windows then you should use "bat" step
                     // Since unit testing is out of the scope we skip them
-                    bat "C:\\Program Files\\apache-maven-3.6.2\\bin mvn deploy"
+                    bat "C:\\Program Files\\apache-maven-3.6.2\\bin\\mvn deploy"
                 }
             }
         }
